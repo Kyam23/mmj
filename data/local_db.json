@@ -1,0 +1,1226 @@
+{
+  "system_settings": [
+    {
+      "id": "sett-1",
+      "setting_key": "weekly_contribution_fee",
+      "setting_value": "5.00",
+      "description": "Weekly solid waste contribution fee per household in PHP",
+      "updated_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "sett-2",
+      "setting_key": "barangay_name",
+      "setting_value": "Barangay Bang-Bang",
+      "description": "Official Barangay Name",
+      "updated_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "sett-3",
+      "setting_key": "municipality_name",
+      "setting_value": "Cordova",
+      "description": "Municipality",
+      "updated_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "sett-4",
+      "setting_key": "province_name",
+      "setting_value": "Cebu",
+      "description": "Province",
+      "updated_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "sett-5",
+      "setting_key": "barangay_captain",
+      "setting_value": "Hon. Artemio Degamo",
+      "description": "Incumbent Punong Barangay (Admin)",
+      "updated_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "sett-6",
+      "setting_key": "contact_hotline",
+      "setting_value": "(032) 496-8120 / +63 917 849 2031",
+      "description": "Barangay Bang-Bang Operations Contact Hotline",
+      "updated_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "sett-7",
+      "setting_key": "gcash_treasury_number",
+      "setting_value": "0917-849-2031 (Barangay Bang-Bang Waste Fund)",
+      "description": "Official GCash payment destination for collection fee contributions",
+      "updated_at": "2026-10-19T14:07:54.862Z"
+    }
+  ],
+  "puroks": [
+    {
+      "id": "pur-1",
+      "name": "Purok Mangga",
+      "description": "Coastal residential zone with fishing landing site and access to Mangga chapel road",
+      "target_collection_days": "Monday, Thursday",
+      "leader_id": "usr-ldr-1",
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "pur-2",
+      "name": "Purok Nangka",
+      "description": "Central neighborhood surrounding the community elementary school and sports plaza",
+      "target_collection_days": "Tuesday, Friday",
+      "leader_id": "usr-ldr-2",
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "pur-3",
+      "name": "Purok Saging",
+      "description": "Agricultural and residential border section near mangrove preservation perimeter",
+      "target_collection_days": "Wednesday, Saturday",
+      "leader_id": "usr-ldr-3",
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "pur-4",
+      "name": "Purok Sambag",
+      "description": "Commercial intersection section with local sari-sari stalls and bakery row",
+      "target_collection_days": "Monday, Thursday",
+      "leader_id": "usr-ldr-4",
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "pur-5",
+      "name": "Purok Santol",
+      "description": "Interior residential sector with closely-knit household clusters and footpaths",
+      "target_collection_days": "Tuesday, Friday",
+      "leader_id": null,
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "pur-6",
+      "name": "Purok Pag-asa",
+      "description": "Newer settlement district with active youth organization and community garden",
+      "target_collection_days": "Wednesday, Saturday",
+      "leader_id": null,
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "pur-7",
+      "name": "Purok Malinawon",
+      "description": "Quiet peripheral coastal strip with seaside residential households",
+      "target_collection_days": "Friday, Sunday",
+      "leader_id": null,
+      "created_at": "2026-10-19T14:07:54.862Z"
+    }
+  ],
+  "households": [
+    {
+      "id": "hh-1",
+      "household_number": "HH-MNG-001",
+      "purok_id": "pur-1",
+      "head_name": "Maria Clara Deatras",
+      "contact_number": "0917-555-0101",
+      "address_details": "Sitio Seaside, Purok Mangga, Bang-Bang",
+      "family_member_count": 4,
+      "waste_segregation_compliant": true,
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "hh-2",
+      "household_number": "HH-MNG-002",
+      "purok_id": "pur-1",
+      "head_name": "Pedro Alcantara",
+      "contact_number": "0918-555-0102",
+      "address_details": "Cor. Chapel Lane, Purok Mangga, Bang-Bang",
+      "family_member_count": 5,
+      "waste_segregation_compliant": true,
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "hh-3",
+      "household_number": "HH-NGK-001",
+      "purok_id": "pur-2",
+      "head_name": "Juan Dela Cruz",
+      "contact_number": "0920-555-0201",
+      "address_details": "Near Elementary School, Purok Nangka",
+      "family_member_count": 3,
+      "waste_segregation_compliant": true,
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "hh-4",
+      "household_number": "HH-NGK-002",
+      "purok_id": "pur-2",
+      "head_name": "Lourdes Mendoza",
+      "contact_number": "0922-555-0202",
+      "address_details": "Block 3 Lot 14, Purok Nangka, Bang-Bang",
+      "family_member_count": 6,
+      "waste_segregation_compliant": true,
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "hh-5",
+      "household_number": "HH-SAG-001",
+      "purok_id": "pur-3",
+      "head_name": "Elena Ramos",
+      "contact_number": "0923-555-0301",
+      "address_details": "Mangrove View Road, Purok Saging",
+      "family_member_count": 4,
+      "waste_segregation_compliant": true,
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "hh-6",
+      "household_number": "HH-SMB-001",
+      "purok_id": "pur-4",
+      "head_name": "Ramon Gutierrez",
+      "contact_number": "0925-555-0401",
+      "address_details": "Main Highway junction, Purok Sambag",
+      "family_member_count": 5,
+      "waste_segregation_compliant": true,
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "hh-7",
+      "household_number": "HH-SNT-001",
+      "purok_id": "pur-5",
+      "head_name": "Salvacion Fernandez",
+      "contact_number": "0927-555-0501",
+      "address_details": "Interior Alley 2, Purok Santol",
+      "family_member_count": 3,
+      "waste_segregation_compliant": true,
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "hh-8",
+      "household_number": "HH-PAG-001",
+      "purok_id": "pur-6",
+      "head_name": "Nestor Villamor",
+      "contact_number": "0929-555-0601",
+      "address_details": "Community Garden St., Purok Pag-asa",
+      "family_member_count": 4,
+      "waste_segregation_compliant": true,
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "hh-9",
+      "household_number": "HH-MLN-001",
+      "purok_id": "pur-7",
+      "head_name": "Teresita Cañete",
+      "contact_number": "0930-555-0701",
+      "address_details": "Coastal Dyke Rd, Purok Malinawon",
+      "family_member_count": 2,
+      "waste_segregation_compliant": true,
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "hh-1792420102640",
+      "household_number": "HH-MAN-003",
+      "purok_id": "pur-1",
+      "head_name": "Test Citizen",
+      "contact_number": "0917-123-4567",
+      "address_details": "Sitio Seaside",
+      "family_member_count": 1,
+      "waste_segregation_compliant": true,
+      "created_at": "2026-10-19T14:28:22.640Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "usr-admin",
+      "username": "captain.degamo",
+      "email": "captain@bangbang-cordova.gov.ph",
+      "password_hash": "$2a$10$w09Zk1O9u5d/d2K9a4r0fOa7EwT2w4P/N6F9Z7d4X1w8L6t5u3q0e",
+      "full_name": "Hon. Artemio Degamo (Barangay Captain)",
+      "role": "admin",
+      "purok_id": null,
+      "household_id": null,
+      "contact_number": "0917-849-2031",
+      "status": "active",
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "usr-col-1",
+      "username": "collector.danilo",
+      "email": "danilo.enoc@bangbang-cordova.gov.ph",
+      "password_hash": "$2a$10$w09Zk1O9u5d/d2K9a4r0fOa7EwT2w4P/N6F9Z7d4X1w8L6t5u3q0e",
+      "full_name": "Danilo Enoc",
+      "role": "collector",
+      "purok_id": null,
+      "household_id": null,
+      "contact_number": "0918-333-1001",
+      "status": "active",
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "usr-col-2",
+      "username": "collector.bernardo",
+      "email": "bernardo.casquejo@bangbang-cordova.gov.ph",
+      "password_hash": "$2a$10$w09Zk1O9u5d/d2K9a4r0fOa7EwT2w4P/N6F9Z7d4X1w8L6t5u3q0e",
+      "full_name": "Bernardo Casquejo",
+      "role": "collector",
+      "purok_id": null,
+      "household_id": null,
+      "contact_number": "0919-333-1002",
+      "status": "active",
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "usr-col-3",
+      "username": "collector.eduardo",
+      "email": "eduardo.berdin@bangbang-cordova.gov.ph",
+      "password_hash": "$2a$10$w09Zk1O9u5d/d2K9a4r0fOa7EwT2w4P/N6F9Z7d4X1w8L6t5u3q0e",
+      "full_name": "Eduardo Berdin",
+      "role": "collector",
+      "purok_id": null,
+      "household_id": null,
+      "contact_number": "0920-333-1003",
+      "status": "active",
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "usr-ldr-1",
+      "username": "leader.rolando",
+      "email": "rolando.cabigas@bangbang-cordova.gov.ph",
+      "password_hash": "$2a$10$w09Zk1O9u5d/d2K9a4r0fOa7EwT2w4P/N6F9Z7d4X1w8L6t5u3q0e",
+      "full_name": "Rolando Cabigas",
+      "role": "leader",
+      "purok_id": "pur-1",
+      "household_id": null,
+      "contact_number": "0921-444-2001",
+      "status": "active",
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "usr-ldr-2",
+      "username": "leader.marilou",
+      "email": "marilou.dinopol@bangbang-cordova.gov.ph",
+      "password_hash": "$2a$10$w09Zk1O9u5d/d2K9a4r0fOa7EwT2w4P/N6F9Z7d4X1w8L6t5u3q0e",
+      "full_name": "Marilou Dinopol",
+      "role": "leader",
+      "purok_id": "pur-2",
+      "household_id": null,
+      "contact_number": "0922-444-2002",
+      "status": "active",
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "usr-ldr-3",
+      "username": "leader.crispin",
+      "email": "crispin.ando@bangbang-cordova.gov.ph",
+      "password_hash": "$2a$10$w09Zk1O9u5d/d2K9a4r0fOa7EwT2w4P/N6F9Z7d4X1w8L6t5u3q0e",
+      "full_name": "Crispin Ando",
+      "role": "leader",
+      "purok_id": "pur-3",
+      "household_id": null,
+      "contact_number": "0923-444-2003",
+      "status": "active",
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "usr-ldr-4",
+      "username": "leader.gemma",
+      "email": "gemma.jumaoas@bangbang-cordova.gov.ph",
+      "password_hash": "$2a$10$w09Zk1O9u5d/d2K9a4r0fOa7EwT2w4P/N6F9Z7d4X1w8L6t5u3q0e",
+      "full_name": "Gemma Jumao-as",
+      "role": "leader",
+      "purok_id": "pur-4",
+      "household_id": null,
+      "contact_number": "0924-444-2004",
+      "status": "active",
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "usr-res-1",
+      "username": "resident.maria",
+      "email": "maria.deatras@gmail.com",
+      "password_hash": "$2a$10$w09Zk1O9u5d/d2K9a4r0fOa7EwT2w4P/N6F9Z7d4X1w8L6t5u3q0e",
+      "full_name": "Maria Clara Deatras",
+      "role": "resident",
+      "purok_id": "pur-1",
+      "household_id": "hh-1",
+      "contact_number": "0917-555-0101",
+      "status": "active",
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "usr-res-2",
+      "username": "resident.juan",
+      "email": "juan.delacruz@gmail.com",
+      "password_hash": "$2a$10$w09Zk1O9u5d/d2K9a4r0fOa7EwT2w4P/N6F9Z7d4X1w8L6t5u3q0e",
+      "full_name": "Juan Dela Cruz",
+      "role": "resident",
+      "purok_id": "pur-2",
+      "household_id": "hh-3",
+      "contact_number": "0920-555-0201",
+      "status": "active",
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "usr-res-3",
+      "username": "resident.elena",
+      "email": "elena.ramos@gmail.com",
+      "password_hash": "$2a$10$w09Zk1O9u5d/d2K9a4r0fOa7EwT2w4P/N6F9Z7d4X1w8L6t5u3q0e",
+      "full_name": "Elena Ramos",
+      "role": "resident",
+      "purok_id": "pur-3",
+      "household_id": "hh-5",
+      "contact_number": "0923-555-0301",
+      "status": "active",
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "usr-res-4",
+      "username": "resident.pedro",
+      "email": "pedro.alcantara@gmail.com",
+      "password_hash": "$2a$10$w09Zk1O9u5d/d2K9a4r0fOa7EwT2w4P/N6F9Z7d4X1w8L6t5u3q0e",
+      "full_name": "Pedro Alcantara",
+      "role": "resident",
+      "purok_id": "pur-1",
+      "household_id": "hh-2",
+      "contact_number": "0918-555-0102",
+      "status": "active",
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "usr-1792420102641",
+      "username": "test.citizen",
+      "email": "test.citizen@example.com",
+      "password_hash": "$2b$10$7W3S8rmfcJCK0lqftpRZIe8VUmi7MQIJ2ByAEv36CQsWx8EoeY1rO",
+      "full_name": "Test Citizen",
+      "role": "resident",
+      "purok_id": "pur-1",
+      "household_id": "hh-1792420102640",
+      "contact_number": "0917-123-4567",
+      "status": "active",
+      "email_verified": true,
+      "verification_code": null,
+      "verification_expires": 1792421002641,
+      "created_at": "2026-10-19T14:28:22.641Z"
+    }
+  ],
+  "collection_schedules": [
+    {
+      "id": "sch-1",
+      "purok_id": "pur-1",
+      "collector_id": "usr-col-1",
+      "scheduled_date": "2026-10-19",
+      "time_slot": "06:00 AM - 09:00 AM",
+      "waste_type": "Biodegradable",
+      "status": "In Progress",
+      "notes": "Priority collection of organic kitchen and garden leaves along Sitio Seaside road",
+      "created_by": "usr-admin",
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "sch-2",
+      "purok_id": "pur-2",
+      "collector_id": "usr-col-2",
+      "scheduled_date": "2026-10-19",
+      "time_slot": "09:30 AM - 12:00 PM",
+      "waste_type": "Non-Biodegradable",
+      "status": "Scheduled",
+      "notes": "Residual plastics, styrofoam, and dry non-recyclable domestic items",
+      "created_by": "usr-admin",
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "sch-3",
+      "purok_id": "pur-3",
+      "collector_id": "usr-col-1",
+      "scheduled_date": "2026-10-20",
+      "time_slot": "06:00 AM - 09:00 AM",
+      "waste_type": "Recyclable",
+      "status": "Scheduled",
+      "notes": "Corrugated cartons, clean PET bottles, beverage aluminum cans",
+      "created_by": "usr-admin",
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "sch-4",
+      "purok_id": "pur-4",
+      "collector_id": "usr-col-3",
+      "scheduled_date": "2026-10-20",
+      "time_slot": "02:00 PM - 05:00 PM",
+      "waste_type": "Biodegradable",
+      "status": "Scheduled",
+      "notes": "Commercial sector and bakery lane green wastes",
+      "created_by": "usr-admin",
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "sch-5",
+      "purok_id": "pur-1",
+      "collector_id": "usr-col-1",
+      "scheduled_date": "2026-10-16",
+      "time_slot": "06:00 AM - 08:30 AM",
+      "waste_type": "Recyclable",
+      "status": "Completed",
+      "notes": "All resident bins gathered successfully. Total 280kg delivered to MRF.",
+      "created_by": "usr-admin",
+      "created_at": "2026-10-19T14:07:54.862Z"
+    }
+  ],
+  "collection_records": [
+    {
+      "id": "rec-1",
+      "schedule_id": "sch-1",
+      "collector_id": "usr-col-1",
+      "started_at": "2026-10-19T13:22:54.862Z",
+      "completed_at": null,
+      "status": "In Progress",
+      "truck_number": "LGU-BangBang-Compactor-01",
+      "collected_volume_kg": 180,
+      "collector_notes": ""
+    },
+    {
+      "id": "rec-5",
+      "schedule_id": "sch-5",
+      "collector_id": "usr-col-1",
+      "started_at": "2026-10-16T14:07:54.862Z",
+      "completed_at": "2026-10-16T16:07:54.862Z",
+      "status": "Completed",
+      "truck_number": "LGU-BangBang-Compactor-01",
+      "collected_volume_kg": 280,
+      "collector_notes": "Purok Mangga residents compliant. Fully sorted materials."
+    }
+  ],
+  "disposal_submissions": [
+    {
+      "id": "sub-1",
+      "schedule_id": "sch-1",
+      "resident_id": "usr-res-1",
+      "household_id": "hh-1",
+      "purok_id": "pur-1",
+      "waste_type": "Biodegradable",
+      "bag_count": 2,
+      "notes": "Two green sacks of organic kitchen wastes placed by our main gate bin.",
+      "proof_url": "",
+      "submission_timestamp": "2026-10-19T13:27:54.862Z",
+      "created_at": "2026-10-19T13:27:54.862Z"
+    },
+    {
+      "id": "sub-2",
+      "schedule_id": "sch-1",
+      "resident_id": "usr-res-4",
+      "household_id": "hh-2",
+      "purok_id": "pur-1",
+      "waste_type": "Biodegradable",
+      "bag_count": 1,
+      "notes": "Garden clippings and coconut husks packed in biodegradable sack.",
+      "proof_url": "",
+      "submission_timestamp": "2026-10-19T13:42:54.862Z",
+      "created_at": "2026-10-19T13:42:54.862Z"
+    },
+    {
+      "id": "sub-5",
+      "schedule_id": "sch-5",
+      "resident_id": "usr-res-1",
+      "household_id": "hh-1",
+      "purok_id": "pur-1",
+      "waste_type": "Recyclable",
+      "bag_count": 3,
+      "notes": "Cardboard boxes and plastic bottles cleanly bound.",
+      "proof_url": "",
+      "submission_timestamp": "2026-10-16T14:07:54.862Z",
+      "created_at": "2026-10-16T14:07:54.862Z"
+    }
+  ],
+  "disposal_verifications": [
+    {
+      "id": "ver-1",
+      "submission_id": "sub-1",
+      "leader_id": "usr-ldr-1",
+      "status": "Verified",
+      "remarks": "Segregation confirmed on-site.",
+      "verified_at": "2026-10-19T14:10:18.113Z",
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "ver-2",
+      "submission_id": "sub-2",
+      "leader_id": "usr-ldr-1",
+      "status": "Pending",
+      "remarks": "",
+      "verified_at": null,
+      "created_at": "2026-10-19T14:07:54.862Z"
+    },
+    {
+      "id": "ver-5",
+      "submission_id": "sub-5",
+      "leader_id": "usr-ldr-1",
+      "status": "Verified",
+      "remarks": "Personal on-site visual inspection completed at Sitio Seaside.",
+      "verified_at": "2026-10-16T15:07:54.862Z",
+      "created_at": "2026-10-16T15:07:54.862Z"
+    }
+  ],
+  "payment_submissions": [
+    {
+      "id": "pay-1",
+      "resident_id": "usr-res-1",
+      "household_id": "hh-1",
+      "purok_id": "pur-1",
+      "period_start": "2026-10-12",
+      "period_end": "2026-10-19",
+      "amount": 5,
+      "payment_method": "GCash",
+      "reference_number": "GCASH-9921402831",
+      "proof_url": "",
+      "status": "Pending",
+      "reviewed_by_leader_id": null,
+      "reviewed_at": null,
+      "rejection_reason": null,
+      "created_at": "2026-10-19T12:07:54.862Z"
+    },
+    {
+      "id": "pay-2",
+      "resident_id": "usr-res-2",
+      "household_id": "hh-3",
+      "purok_id": "pur-2",
+      "period_start": "2026-10-12",
+      "period_end": "2026-10-19",
+      "amount": 5,
+      "payment_method": "Cash to Leader",
+      "reference_number": "CASH-P2-20261019-01",
+      "proof_url": "",
+      "status": "Pending",
+      "reviewed_by_leader_id": null,
+      "reviewed_at": null,
+      "rejection_reason": null,
+      "created_at": "2026-10-19T10:07:54.862Z"
+    },
+    {
+      "id": "pay-3",
+      "resident_id": "usr-res-1",
+      "household_id": "hh-1",
+      "purok_id": "pur-1",
+      "period_start": "2026-10-05",
+      "period_end": "2026-10-11",
+      "amount": 5,
+      "payment_method": "GCash",
+      "reference_number": "GCASH-9883120194",
+      "proof_url": "",
+      "status": "Verified",
+      "reviewed_by_leader_id": "usr-ldr-1",
+      "reviewed_at": "2026-10-12T14:07:54.862Z",
+      "rejection_reason": null,
+      "created_at": "2026-10-11T14:07:54.862Z"
+    }
+  ],
+  "endorsement_requests": [
+    {
+      "id": "end-1",
+      "resident_id": "usr-res-1",
+      "purok_id": "pur-1",
+      "leader_id": "usr-ldr-1",
+      "purpose": "Barangay Clearance Endorsement",
+      "details": "Endorsement certificate needed for student scholarship application in Cordova LGU.",
+      "status": "Pending",
+      "remarks": null,
+      "certificate_code": null,
+      "issued_at": null,
+      "created_at": "2026-10-19T09:07:54.862Z",
+      "updated_at": "2026-10-19T09:07:54.862Z"
+    },
+    {
+      "id": "end-2",
+      "resident_id": "usr-res-4",
+      "purok_id": "pur-1",
+      "leader_id": "usr-ldr-1",
+      "purpose": "Waste Compliance Certificate",
+      "details": "Proof of household waste segregation compliance and weekly collection fee clearance.",
+      "status": "Approved",
+      "remarks": "Resident Pedro Alcantara is compliant with Barangay Bang-Bang Solid Waste Ordinance.",
+      "certificate_code": "BB-END-2026-08819",
+      "issued_at": "2026-10-17T14:07:54.862Z",
+      "created_at": "2026-10-17T12:07:54.862Z",
+      "updated_at": "2026-10-17T14:07:54.862Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1792420102641-nmyg",
+      "user_id": "usr-ldr-1",
+      "title": "New Resident Registered",
+      "message": "Test Citizen registered in Purok Mangga (HH-MAN-003). Pending email verification.",
+      "type": "system",
+      "link": "/households",
+      "is_read": false,
+      "created_at": "2026-10-19T14:28:22.641Z"
+    },
+    {
+      "id": "notif-1792419018113-shyb",
+      "user_id": "usr-res-1",
+      "title": "Disposal Participation Verified",
+      "message": "Your disposal submission was verified by Purok Leader Rolando Cabigas. Note: \"Segregation confirmed on-site.\"",
+      "type": "disposal",
+      "link": "/my-disposal",
+      "is_read": false,
+      "created_at": "2026-10-19T14:10:18.113Z"
+    },
+    {
+      "id": "notif-1",
+      "user_id": "usr-res-1",
+      "title": "Collection Started in Purok Mangga",
+      "message": "Collector Danilo Enoc has started the morning Biodegradable collection route in Purok Mangga.",
+      "type": "schedule",
+      "link": "/schedules",
+      "is_read": false,
+      "created_at": "2026-10-19T13:22:54.862Z"
+    },
+    {
+      "id": "notif-2",
+      "user_id": "usr-ldr-1",
+      "title": "New Disposal Record to Verify",
+      "message": "Resident Maria Clara Deatras submitted 2 bags of Biodegradable waste for verification.",
+      "type": "disposal",
+      "link": "/leader-verification",
+      "is_read": false,
+      "created_at": "2026-10-19T13:27:54.862Z"
+    },
+    {
+      "id": "notif-3",
+      "user_id": "usr-res-4",
+      "title": "Endorsement Approved",
+      "message": "Your Waste Compliance Certificate request BB-END-2026-08819 was approved by Purok Leader Rolando Cabigas.",
+      "type": "endorsement",
+      "link": "/endorsements",
+      "is_read": true,
+      "created_at": "2026-10-17T14:07:54.862Z"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-1",
+      "title": "Strict Segregation Compliance Ordinance No. 2026-04",
+      "content": "Magpahibalo sa tanang residente sa Barangay Bang-Bang: hugot nga gipatuman ang \"No Segregation, No Collection\" policy. Palihug ibuwag ang malata (Biodegradable), dili malata (Non-Biodegradable), ug mabaligya/marecycle. Ang mga dili mupatuo pagadakpon subay sa Republic Act 9003.",
+      "category": "Policy Advisory",
+      "priority": "Important",
+      "created_by": "usr-admin",
+      "is_active": true,
+      "created_at": "2026-10-18T14:07:54.862Z"
+    },
+    {
+      "id": "ann-2",
+      "title": "Schedule Adjustment for Coastal Puroks (Mangga & Malinawon)",
+      "content": "Due to tidal conditions this week, morning waste collection along Sitio Seaside Purok Mangga will commence at 6:00 AM sharp to ensure compactor access before high tide.",
+      "category": "Schedule Update",
+      "priority": "Normal",
+      "created_by": "usr-admin",
+      "is_active": true,
+      "created_at": "2026-10-17T14:07:54.862Z"
+    },
+    {
+      "id": "ann-3",
+      "title": "Weekly ₱5.00 Solid Waste Management Contribution Drive",
+      "content": "Gipahinumdoman ang matag household sa pagbayad sa semanal nga ₱5.00 contribution alang sa truck fuel maintenance ug purok waste sweepers. Pwede mobayad via GCash o direct sa inyong tagsa-tagsa ka Purok Leader.",
+      "category": "Community Advisory",
+      "priority": "Normal",
+      "created_by": "usr-admin",
+      "is_active": true,
+      "created_at": "2026-10-16T14:07:54.862Z"
+    }
+  ],
+  "activity_logs": [
+    {
+      "id": "act-1792420109237-f8mv",
+      "user_id": "usr-1792420102641",
+      "action": "EMAIL_VERIFIED",
+      "module": "Auth",
+      "details": "Test Citizen completed email verification.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:28:29.237Z"
+    },
+    {
+      "id": "act-1792420102642-3bhh",
+      "user_id": "usr-1792420102641",
+      "action": "REGISTER_INIT",
+      "module": "Auth",
+      "details": "New resident Test Citizen initiated registration for Purok Mangga",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:28:22.642Z"
+    },
+    {
+      "id": "act-1792419741638-3s90",
+      "user_id": "usr-col-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Danilo Enoc (collector) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:22:21.638Z"
+    },
+    {
+      "id": "act-1792419741343-krsl",
+      "user_id": "usr-res-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Maria Clara Deatras (resident) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:22:21.343Z"
+    },
+    {
+      "id": "act-1792419737588-1vai",
+      "user_id": "usr-ldr-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Rolando Cabigas (leader) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:22:17.588Z"
+    },
+    {
+      "id": "act-1792419734978-tf51",
+      "user_id": "usr-admin",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Hon. Artemio Degamo (Barangay Captain) (admin) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:22:14.978Z"
+    },
+    {
+      "id": "act-1792419720935-j1dt",
+      "user_id": "usr-admin",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Hon. Artemio Degamo (Barangay Captain) (admin) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:22:00.935Z"
+    },
+    {
+      "id": "act-1792419712312-6mkq",
+      "user_id": "usr-res-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Maria Clara Deatras (resident) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:21:52.312Z"
+    },
+    {
+      "id": "act-1792419708678-e96b",
+      "user_id": "usr-ldr-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Rolando Cabigas (leader) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:21:48.678Z"
+    },
+    {
+      "id": "act-1792419708321-uqzo",
+      "user_id": "usr-col-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Danilo Enoc (collector) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:21:48.321Z"
+    },
+    {
+      "id": "act-1792419367023-5bqz",
+      "user_id": "usr-admin",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Hon. Artemio Degamo (Barangay Captain) (admin) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:16:07.023Z"
+    },
+    {
+      "id": "act-1792419344167-88ra",
+      "user_id": "usr-admin",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Hon. Artemio Degamo (Barangay Captain) (admin) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:15:44.167Z"
+    },
+    {
+      "id": "act-1792419343662-cwcn",
+      "user_id": "usr-res-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Maria Clara Deatras (resident) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:15:43.662Z"
+    },
+    {
+      "id": "act-1792419343029-jkvm",
+      "user_id": "usr-ldr-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Rolando Cabigas (leader) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:15:43.029Z"
+    },
+    {
+      "id": "act-1792419342370-slja",
+      "user_id": "usr-admin",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Hon. Artemio Degamo (Barangay Captain) (admin) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:15:42.370Z"
+    },
+    {
+      "id": "act-1792419333412-gja6",
+      "user_id": "usr-res-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Maria Clara Deatras (resident) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:15:33.412Z"
+    },
+    {
+      "id": "act-1792419333160-9uaz",
+      "user_id": "usr-ldr-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Rolando Cabigas (leader) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:15:33.160Z"
+    },
+    {
+      "id": "act-1792419332771-n061",
+      "user_id": "usr-admin",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Hon. Artemio Degamo (Barangay Captain) (admin) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:15:32.771Z"
+    },
+    {
+      "id": "act-1792419329886-sbvd",
+      "user_id": "usr-ldr-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Rolando Cabigas (leader) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:15:29.886Z"
+    },
+    {
+      "id": "act-1792419329405-nic5",
+      "user_id": "usr-admin",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Hon. Artemio Degamo (Barangay Captain) (admin) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:15:29.405Z"
+    },
+    {
+      "id": "act-1792419320146-y8gl",
+      "user_id": "usr-col-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Danilo Enoc (collector) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:15:20.146Z"
+    },
+    {
+      "id": "act-1792419319130-xkmc",
+      "user_id": "usr-ldr-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Rolando Cabigas (leader) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:15:19.130Z"
+    },
+    {
+      "id": "act-1792419312070-ysa5",
+      "user_id": "usr-res-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Maria Clara Deatras (resident) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:15:12.070Z"
+    },
+    {
+      "id": "act-1792419310135-kled",
+      "user_id": "usr-ldr-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Rolando Cabigas (leader) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:15:10.135Z"
+    },
+    {
+      "id": "act-1792419295852-m9ox",
+      "user_id": "usr-col-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Danilo Enoc (collector) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:14:55.852Z"
+    },
+    {
+      "id": "act-1792419287463-4gcb",
+      "user_id": "usr-admin",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Hon. Artemio Degamo (Barangay Captain) (admin) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:14:47.463Z"
+    },
+    {
+      "id": "act-1792419284874-5khk",
+      "user_id": "usr-col-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Danilo Enoc (collector) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:14:44.874Z"
+    },
+    {
+      "id": "act-1792419284615-m5o8",
+      "user_id": "usr-admin",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Hon. Artemio Degamo (Barangay Captain) (admin) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:14:44.615Z"
+    },
+    {
+      "id": "act-1792419278777-z6va",
+      "user_id": "usr-ldr-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Rolando Cabigas (leader) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:14:38.777Z"
+    },
+    {
+      "id": "act-1792419198458-luvf",
+      "user_id": "usr-res-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Maria Clara Deatras (resident) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:13:18.458Z"
+    },
+    {
+      "id": "act-1792419192252-zlte",
+      "user_id": "usr-col-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Danilo Enoc (collector) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:13:12.252Z"
+    },
+    {
+      "id": "act-1792419183375-s4z5",
+      "user_id": "usr-ldr-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Rolando Cabigas (leader) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:13:03.375Z"
+    },
+    {
+      "id": "act-1792419183059-ms9a",
+      "user_id": "usr-col-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Danilo Enoc (collector) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:13:03.059Z"
+    },
+    {
+      "id": "act-1792419175242-fbgk",
+      "user_id": "usr-ldr-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Rolando Cabigas (leader) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:12:55.242Z"
+    },
+    {
+      "id": "act-1792419174867-ula4",
+      "user_id": "usr-col-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Danilo Enoc (collector) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:12:54.867Z"
+    },
+    {
+      "id": "act-1792419173495-7xba",
+      "user_id": "usr-admin",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Hon. Artemio Degamo (Barangay Captain) (admin) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:12:53.495Z"
+    },
+    {
+      "id": "act-1792419032715-14ke",
+      "user_id": "usr-res-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Maria Clara Deatras (resident) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:10:32.715Z"
+    },
+    {
+      "id": "act-1792419032510-w7a0",
+      "user_id": "usr-ldr-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Rolando Cabigas (leader) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:10:32.510Z"
+    },
+    {
+      "id": "act-1792419031552-w7kg",
+      "user_id": "usr-col-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Danilo Enoc (collector) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:10:31.552Z"
+    },
+    {
+      "id": "act-1792419029904-vf92",
+      "user_id": "usr-admin",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Hon. Artemio Degamo (Barangay Captain) (admin) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:10:29.904Z"
+    },
+    {
+      "id": "act-1792419025978-pdp2",
+      "user_id": "usr-admin",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Hon. Artemio Degamo (Barangay Captain) (admin) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:10:25.978Z"
+    },
+    {
+      "id": "act-1792419018114-pcx2",
+      "user_id": "usr-ldr-1",
+      "action": "VERIFY_DISPOSAL",
+      "module": "Disposal",
+      "details": "Leader Rolando Cabigas marked disposal sub-1 as Verified",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:10:18.114Z"
+    },
+    {
+      "id": "act-1792419012210-151h",
+      "user_id": "usr-ldr-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Rolando Cabigas (leader) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:10:12.210Z"
+    },
+    {
+      "id": "act-1792419004270-u11u",
+      "user_id": "usr-col-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Danilo Enoc (collector) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:10:04.270Z"
+    },
+    {
+      "id": "act-1792419000769-5sap",
+      "user_id": "usr-ldr-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Rolando Cabigas (leader) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:10:00.769Z"
+    },
+    {
+      "id": "act-1792418990850-i2n6",
+      "user_id": "usr-res-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Maria Clara Deatras (resident) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:09:50.850Z"
+    },
+    {
+      "id": "act-1792418990327-amx8",
+      "user_id": "usr-ldr-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Rolando Cabigas (leader) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:09:50.327Z"
+    },
+    {
+      "id": "act-1792418989615-yv1j",
+      "user_id": "usr-admin",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Hon. Artemio Degamo (Barangay Captain) (admin) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:09:49.615Z"
+    },
+    {
+      "id": "act-1792418989171-2v9d",
+      "user_id": "usr-admin",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Hon. Artemio Degamo (Barangay Captain) (admin) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:09:49.171Z"
+    },
+    {
+      "id": "act-1792418977199-5g8j",
+      "user_id": "usr-col-1",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Danilo Enoc (collector) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:09:37.199Z"
+    },
+    {
+      "id": "act-1792418961291-3f7g",
+      "user_id": "usr-admin",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Hon. Artemio Degamo (Barangay Captain) (admin) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:09:21.291Z"
+    },
+    {
+      "id": "act-1792418891669-xjcg",
+      "user_id": "usr-admin",
+      "action": "LOGIN",
+      "module": "Auth",
+      "details": "Hon. Artemio Degamo (Barangay Captain) (admin) logged in.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T14:08:11.669Z"
+    },
+    {
+      "id": "act-1",
+      "user_id": "usr-admin",
+      "action": "CREATE_SCHEDULE",
+      "module": "Schedule",
+      "details": "Admin Hon. Artemio Degamo created collection schedule for Purok Mangga",
+      "ip_address": "192.168.1.10",
+      "created_at": "2026-10-19T13:07:54.862Z"
+    },
+    {
+      "id": "act-2",
+      "user_id": "usr-col-1",
+      "action": "START_COLLECTION",
+      "module": "Collector Operations",
+      "details": "Danilo Enoc started collection route on Compactor 01",
+      "ip_address": "192.168.1.15",
+      "created_at": "2026-10-19T13:22:54.862Z"
+    },
+    {
+      "id": "act-3",
+      "user_id": "usr-res-1",
+      "action": "SUBMIT_DISPOSAL",
+      "module": "Disposal",
+      "details": "Maria Clara Deatras submitted disposal record for Schedule sch-1",
+      "ip_address": "124.106.84.12",
+      "created_at": "2026-10-19T13:27:54.862Z"
+    },
+    {
+      "id": "act-4",
+      "user_id": "usr-res-1",
+      "action": "SUBMIT_PAYMENT",
+      "module": "Payment",
+      "details": "Maria Clara Deatras submitted ₱5.00 payment (GCASH-9921402831)",
+      "ip_address": "124.106.84.12",
+      "created_at": "2026-10-19T12:07:54.862Z"
+    }
+  ]
+}
